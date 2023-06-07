@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+}
+
+#nav_bar {
+    background-color: rgb(146, 72, 72);
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 30px;
+}
+
+li {
+    color: white;
+    padding: 5px;
+}
+
+li:not(:nth-last-of-type(1)) {
+    border-right: 2px solid white;
+}
+
+
+
+header {
+    width: 100%;
+    height: 500px;
+}
+
+div#corpo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 231, 216);
+}
+
+div#left {
+    float: left;
+    width: 50%;
+    margin-left: 60px;
+    margin: 30px;
+    text-align: left;
+}
+
+div#right {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    margin-right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div#right figure {
+    background-color: rgb(168, 82, 82);
+    width: 47%;
+    float: left;
+    border: 5px solid rgb(168, 82, 82);
+    margin: 5px;
+}
+
+div#right img {
+    width: 100%;
+    height: 200px;
+}
+
+div#right .legenda {
+    text-align: center;
+    margin: 0%;
+    background-color: rgb(168, 82, 82);
+    font-size: 22px;
+    width: 100%;
+    color: white;
+}
+
+#title {
+    color: rgb(168, 82, 82);
+    font-size: 40px;
+}
+
+.text {
+    font-size: 25px;
+    color: black;
+}
+
+footer {
+    background-color: rgb(168, 82, 82);
+    width: 100%;
+    height: 50px;
+}
